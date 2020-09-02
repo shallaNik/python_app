@@ -20,6 +20,6 @@ pipeline {
                 //workspace directory for use in later stages.
                 stash(name: 'compiled-results', includes: 'sources/*.py*')
             }
-
+        }
     }
 }
